@@ -1,8 +1,8 @@
 # CosmosCLI
 CosmosCLI, the unofficial way to use cosmos on linux, conveniently.
 <br>
-<img src="https://img.shields.io/github/license/PratyushKing/cosmosCLI" />
-<img src="https://img.shields.io/github/downloads/PratyushKing/cosmosCLI/total" />
+<img src="https://img.shields.io/github/license/glintpry/cosmosCLI" />
+<img src="https://img.shields.io/github/downloads/glintpry/cosmosCLI/total" />
 <br>
 
 ### Note for old projects made with CosmosCLI:
@@ -28,7 +28,6 @@ When you update or install a new version of CosmosCLI and you want to update you
 ### Arch or Arch-based distributions
 - You can download the `.pkg.tar.zst` (the packaging format for Arch) file from the latest release in this repository.
 - Then, to install just do `sudo pacman -U cosmos.pkg.tar.zst` to install it, and then it should work.
-<br>(ARCH PACKAGE IS LEAST TESTED, PLEASE TEST IT AND SUBMIT YOUR REPORTS IF POSSIBLE AT DISCORD "pratyushking")
 
 ### Uncommon distributions (Gentoo, Slackware, etc.)
 - These generally do have workarounds to get deb/rpm packages working, but if not, you can git clone the repository and then if dotnet's installed, just do ./prepare-executable.sh and it will automatically build and place the executable in the source directory, from there, you can copy executable to the bin folder and add it to your path.
@@ -42,7 +41,7 @@ Generally, cosmos will not come with the package installer, instead you have to 
 
 ## How to use
 This is how the help page looks by default!
-![The default help page shown when the CLI is run.](https://github.com/PratyushKing/cosmosCLI/assets/83279568/dbf9ec3b-6a45-4e3e-99aa-b823095f352b)
+![The default help page shown when the CLI is run.](https://github.com/glintpry/cosmosCLI/assets/83279568/dbf9ec3b-6a45-4e3e-99aa-b823095f352b)
 
 
 ### Options:
